@@ -33,6 +33,10 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
 
+        if (id == android.R.id.home){
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }
